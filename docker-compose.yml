@@ -1,0 +1,5 @@
+pyenv:
+    build: ubuntu
+    volumes:
+       - ./code:/var/www/html
+    tty: true
