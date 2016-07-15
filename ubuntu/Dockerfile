@@ -4,6 +4,7 @@ MAINTAINER v.smartking@gmail.com
 
 RUN mkdir -p /var/www/html
 
+RUN echo "deb http://us.archive.ubuntu.com/ubuntu xenial main multiverse" >> /etc/apt/sources.list
 RUN apt-get update
 
 RUN apt-get install htop -y
