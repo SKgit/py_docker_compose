@@ -9,6 +9,7 @@ RUN apt-get update
 RUN apt-get install htop -y
 RUN apt-get install wget -y
 RUN apt-get install nano -y
+RUN apt-get install rar -y
 RUN apt-get install unrar -y
 
 RUN apt-get install -y curl python-pip
