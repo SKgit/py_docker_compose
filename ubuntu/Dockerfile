@@ -7,8 +7,8 @@ RUN mkdir -p /var/www/html
 RUN apt-get update
 
 RUN apt-get install htop -y
-RUN apt-get install wget
-RUN apt-get install nano
+RUN apt-get install wget -y
+RUN apt-get install nano -y
 
 RUN apt-get install -y curl python-pip
 RUN pip install --upgrade pip
