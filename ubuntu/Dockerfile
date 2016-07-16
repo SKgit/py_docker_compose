@@ -73,4 +73,6 @@ RUN mkdir firefox \
 RUN rm -rf /usr/bin/firefox
 RUN ln -s /firefox/firefox/firefox /usr/bin/firefox
 
+RUN apt-get install unzip
+
 ENTRYPOINT /usr/bin/tail -f /dev/null
