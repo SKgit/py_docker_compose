@@ -75,5 +75,6 @@ RUN ln -s /firefox/firefox/firefox /usr/bin/firefox
 
 RUN apt-get install unzip -y
 RUN apt-get install phantomjs -y
+RUN apt-get install tor -y
 
 ENTRYPOINT /usr/bin/tail -f /dev/null
