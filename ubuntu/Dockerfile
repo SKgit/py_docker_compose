@@ -77,4 +77,8 @@ RUN apt-get install unzip -y
 RUN apt-get install phantomjs -y
 RUN apt-get install tor -y
 
+RUN pip install twisted
+RUN pip install requesocks
+RUN pip install pyquery
+
 ENTRYPOINT /usr/bin/tail -f /dev/null
